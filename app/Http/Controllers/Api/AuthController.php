@@ -11,7 +11,9 @@ use Illuminate\Support\Facades\Validator;
 class AuthController extends Controller
 {
     public $successStatus = 200;
+
     public $errorStatus = 401;
+
     public $unauthorizedStatus = 403;
 
     /**
